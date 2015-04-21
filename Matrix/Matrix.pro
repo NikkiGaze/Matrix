@@ -16,3 +16,9 @@ SOURCES += main.cpp\
         mainwindow.cpp
 
 HEADERS  += mainwindow.h
+
+MOC_DIR = build/moc
+OBJECTS_DIR = build/obj
+UI_DIR = build/ui
+RCC_DIR = build/rcc
+DESTDIR = bin
